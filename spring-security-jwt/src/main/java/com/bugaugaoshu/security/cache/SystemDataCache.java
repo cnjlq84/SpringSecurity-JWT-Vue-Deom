@@ -1,6 +1,6 @@
 package com.bugaugaoshu.security.cache;
 
-import com.bugaugaoshu.security.damain.CustomData;
+import com.bugaugaoshu.security.domain.CustomData;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;

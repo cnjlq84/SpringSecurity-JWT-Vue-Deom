@@ -1,9 +1,9 @@
 package com.bugaugaoshu.security.controller;
 
 import com.bugaugaoshu.security.config.WebSecurityConfig;
-import com.bugaugaoshu.security.damain.CustomData;
-import com.bugaugaoshu.security.damain.LoginResultDetails;
-import com.bugaugaoshu.security.damain.ResultDetails;
+import com.bugaugaoshu.security.domain.CustomData;
+import com.bugaugaoshu.security.domain.LoginResultDetails;
+import com.bugaugaoshu.security.domain.ResultDetails;
 import com.bugaugaoshu.security.service.LoginService;
 import com.bugaugaoshu.security.service.SystemDataService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package com.bugaugaoshu.security.service.impl;
 
-import com.bugaugaoshu.security.damain.LoginResultDetails;
-import com.bugaugaoshu.security.damain.ResultDetails;
+import com.bugaugaoshu.security.domain.LoginResultDetails;
+import com.bugaugaoshu.security.domain.ResultDetails;
 import com.bugaugaoshu.security.model.User;
 import com.bugaugaoshu.security.service.LoginService;
 import io.jsonwebtoken.Claims;

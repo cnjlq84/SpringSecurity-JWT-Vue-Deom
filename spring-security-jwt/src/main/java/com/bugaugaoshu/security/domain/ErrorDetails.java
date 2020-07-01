@@ -1,19 +1,22 @@
-package com.bugaugaoshu.security.damain;
+package com.bugaugaoshu.security.domain;
 
 import java.time.LocalDateTime;
 
 /**
  * @author Pu Zhiwei {@literal puzhiweipuzhiwei@foxmail.com}
- * create          2019-11-27 23:16
+ * create          2019-11-26 16:08
+ * 错误详情
  */
-public class ResultDetails {
+public class ErrorDetails {
     private LocalDateTime timestamp;
 
     private Integer status;
 
+    private String error;
+
     private String message;
 
-    private Boolean success;
+    private String path;
 
     public LocalDateTime getTimestamp() {
         return timestamp;
@@ -31,6 +34,14 @@ public class ResultDetails {
         this.status = status;
     }
 
+    public String getError() {
+        return error;
+    }
+
+    public void setError(String error) {
+        this.error = error;
+    }
+
     public String getMessage() {
         return message;
     }
@@ -39,11 +50,11 @@ public class ResultDetails {
         this.message = message;
     }
 
-    public Boolean getSuccess() {
-        return success;
+    public String getPath() {
+        return path;
     }
 
-    public void setSuccess(Boolean success) {
-        this.success = success;
+    public void setPath(String path) {
+        this.path = path;
     }
 }

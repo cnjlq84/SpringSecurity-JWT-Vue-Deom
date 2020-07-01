@@ -5,6 +5,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author Pu Zhiwei {@literal puzhiweipuzhiwei@foxmail.com}
@@ -18,6 +19,8 @@ public class User implements UserDetails {
     private String power;
     private Long expirationTime;
     private List<GrantedAuthority> authorities;
+
+
 
     public void setUsername(String username) {
         this.username = username;

@@ -1,7 +1,7 @@
 package com.bugaugaoshu.security.service;
 
-import com.bugaugaoshu.security.damain.CustomData;
-import com.bugaugaoshu.security.damain.ResultDetails;
+import com.bugaugaoshu.security.domain.CustomData;
+import com.bugaugaoshu.security.domain.ResultDetails;
 import com.bugaugaoshu.security.exception.CustomizeException;
 
 import java.util.List;

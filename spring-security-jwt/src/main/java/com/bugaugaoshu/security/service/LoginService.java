@@ -1,6 +1,6 @@
 package com.bugaugaoshu.security.service;
 
-import com.bugaugaoshu.security.damain.LoginResultDetails;
+import com.bugaugaoshu.security.domain.LoginResultDetails;
 
 /**
  * @author Pu Zhiwei {@literal puzhiweipuzhiwei@foxmail.com}

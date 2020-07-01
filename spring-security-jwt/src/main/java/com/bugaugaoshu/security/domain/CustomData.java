@@ -1,4 +1,4 @@
-package com.bugaugaoshu.security.damain;
+package com.bugaugaoshu.security.domain;
 
 /**
  * @author Pu Zhiwei {@literal puzhiweipuzhiwei@foxmail.com}

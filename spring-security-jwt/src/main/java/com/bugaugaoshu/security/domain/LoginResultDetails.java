@@ -1,4 +1,4 @@
-package com.bugaugaoshu.security.damain;
+package com.bugaugaoshu.security.domain;
 
 import com.bugaugaoshu.security.model.User;
 

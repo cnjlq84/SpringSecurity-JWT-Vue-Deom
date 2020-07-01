@@ -2,8 +2,8 @@ package com.bugaugaoshu.security.service.impl;
 
 import com.bugaugaoshu.security.cache.SystemDataCache;
 import com.bugaugaoshu.security.config.WebSecurityConfig;
-import com.bugaugaoshu.security.damain.CustomData;
-import com.bugaugaoshu.security.damain.ResultDetails;
+import com.bugaugaoshu.security.domain.CustomData;
+import com.bugaugaoshu.security.domain.ResultDetails;
 import com.bugaugaoshu.security.exception.CustomizeException;
 import com.bugaugaoshu.security.service.SystemDataService;
 import org.springframework.beans.factory.annotation.Autowired;

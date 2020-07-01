@@ -3,7 +3,7 @@ package com.bugaugaoshu.security.advice;
 import com.bugaugaoshu.security.controller.AdminController;
 import com.bugaugaoshu.security.controller.HomeController;
 import com.bugaugaoshu.security.controller.UserController;
-import com.bugaugaoshu.security.damain.ErrorDetails;
+import com.bugaugaoshu.security.domain.ErrorDetails;
 import com.bugaugaoshu.security.exception.CustomizeException;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;

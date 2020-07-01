@@ -1,7 +1,7 @@
 package com.bugaugaoshu.security.advice;
 
 import com.bugaugaoshu.security.controller.VerifyCodeController;
-import com.bugaugaoshu.security.damain.ErrorDetails;
+import com.bugaugaoshu.security.domain.ErrorDetails;
 import com.bugaugaoshu.security.exception.VerifyFailedException;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
